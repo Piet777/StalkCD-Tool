@@ -12,8 +12,6 @@ import { HomeModule } from './home/home.module';
     ConvertModule,
     HomeModule
   ],
-  exports: [],
-  providers: [
-  ]
+  exports: []
 })
 export class AreasModule { }

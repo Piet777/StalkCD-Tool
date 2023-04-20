@@ -11,8 +11,7 @@ import { ConvertRoutingModule } from './convert-routing.module';
     CommonModule,
     ConvertRoutingModule
   ],
-  exports: [ConvertComponent],
-  providers: [
+  exports: [ConvertComponent
   ]
 })
 export class ConvertModule { }
