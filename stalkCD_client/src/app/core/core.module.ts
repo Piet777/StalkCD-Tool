@@ -16,13 +16,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     CommonModule,
     ToastrModule.forRoot({
-      positionClass: 'toast-bottom-right',
+      positionClass: 'toast-top-right',
     }),
     BrowserAnimationsModule,
     RouterModule,
     ErrorModule,
     HttpClientModule,
-
   ],
   exports: [
     HeaderComponent,

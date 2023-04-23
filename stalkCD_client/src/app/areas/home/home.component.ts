@@ -8,9 +8,13 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class HomeComponent {
 
-  constructor(private toastr: ToastrService) { }
+  constructor() { }
   
-  ShowToast(){
-    this.toastr.success('Hello world!', 'Toastr fun!');
-  }
+  saleData = [
+    { name: "Mobiles", value: 105000 },
+    { name: "Laptop", value: 55000 },
+    { name: "AC", value: 15000 },
+    { name: "Headset", value: 150000 },
+    { name: "Fridge", value: 20000 }
+  ];
 }
