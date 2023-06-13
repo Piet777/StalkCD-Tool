@@ -6,12 +6,14 @@ import { HomeModule } from './home/home.module';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+  ],
   imports: [
     CommonModule,
     ConvertModule,
     HomeModule
   ],
-  exports: []
+  exports: [
+  ]
 })
 export class AreasModule { }

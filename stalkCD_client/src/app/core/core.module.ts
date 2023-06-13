@@ -20,8 +20,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     }),
     BrowserAnimationsModule,
     RouterModule,
-    ErrorModule,
-    HttpClientModule,
+    ErrorModule
   ],
   exports: [
     HeaderComponent,
