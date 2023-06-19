@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Kpi } from 'src/app/shared/models/kpi';
+import { Kpis } from 'src/app/shared/models/kpis';
 
 @Injectable({
   providedIn: 'root'
@@ -11,6 +11,6 @@ export class KpiService {
   constructor(private http: HttpClient) { }
 
   getKpis(repoName: string, workflowName: string){
-    return this.http.get<Kpi>(this.uRL + repoName + '/' + workflowName);
+    return this.http.get<Kpis>(this.uRL + repoName + '/' + workflowName);
   }
 }
